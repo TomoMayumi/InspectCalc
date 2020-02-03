@@ -14,11 +14,9 @@ namespace InspectCalc.ViewModels.Window
     public class MainWindowViewModel : ViewModelBase
     {
         //コンストラクタ
-        public MainWindowViewModel(ModelBase model) :base(model)
+        public MainWindowViewModel(MainWindowModel model) :base(model)
         {
-            var Model = (MainWindowModel)model;
-
-            InspectViewModels = new ObservableCollection<InspectViewModel>(Model.InspectModels.Select(x => new InspectViewModel(x)));
+            InspectViewModels = new ObservableCollection<InspectViewModel>(model.InspectModels.Select(x => new InspectViewModel(x)));
         }
         public ObservableCollection<InspectViewModel> InspectViewModels { get; private set; }
     }

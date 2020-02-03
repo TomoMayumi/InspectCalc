@@ -71,9 +71,9 @@ namespace InspectCalc.ViewModels.Controls
         }
 
         // コンストラクタ
-        public InspectViewModel(ModelBase model) : base(model)
+        public InspectViewModel(InspectModel model) : base(model)
         {
-            inspectModel = (InspectModel)model;
+            inspectModel = model;
             ClearAnswers();
         }
 

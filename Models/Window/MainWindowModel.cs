@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace InspectCalc.Models.Window
 {
-    class MainWindowModel : ModelBase
+    public class MainWindowModel : ModelBase
     {
         //コンストラクタ
         public MainWindowModel()
