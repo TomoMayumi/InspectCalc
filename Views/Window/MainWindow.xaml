@@ -1,0 +1,46 @@
+﻿<Window x:Class="InspectCalc.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InspectCalc"
+        xmlns:vm="clr-namespace:InspectCalc.ViewModels.Window"
+        xmlns:controls="clr-namespace:InspectCalc.Views.Controls"
+        mc:Ignorable="d"
+        Title="心理検査点数計算 ver1.1" Height="900" Width="700"
+        d:DataContext="{d:DesignInstance vm:MainWindowViewModel}"
+        FocusManager.FocusedElement="{x:Reference Tab}"
+        SizeToContent="WidthAndHeight"
+        >
+
+    <TabControl x:Name="Tab" ItemsSource="{Binding InspectViewModels}" Loaded="Tab_Loaded">
+        <TabControl.Style>
+            <Style TargetType="TabControl">
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding RelativeSource={x:Static RelativeSource.Self}, Path=Items.Count}" Value="0">
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate>
+                                    <TextBlock>
+                                        InspectionList.xlsx が正しくない、もしくは、読み込めません。<LineBreak/>
+                                        InspectCalc.exe と同じフォルダに InspectionList.xlsx を格納してください。
+                                    </TextBlock>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                </Style.Triggers>
+            </Style>
+        </TabControl.Style>
+        <TabControl.ItemTemplate>
+            <DataTemplate>
+                <TextBlock Text="{Binding InspectModel.InspectName}"/>
+            </DataTemplate>
+        </TabControl.ItemTemplate>
+        <TabControl.ContentTemplate>
+            <DataTemplate>
+                <controls:InspectControl DataContext="{Binding}"/>
+            </DataTemplate>
+        </TabControl.ContentTemplate>
+    </TabControl>
+</Window>

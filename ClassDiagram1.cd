@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="InspectCalc.App" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InspectCalc.DelegateCommand" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQQAEAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>DelegateCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="InspectCalc.MainWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Window\MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="InspectCalc.Models.Controls.CesdCalcModel" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAgAAAAAEAQAAAAAAAAA=</HashCode>
+      <FileName>Models\Controls\CesdCalcModel.cs</FileName>
+      <NewMemberFileName>Models\Controls\CESDCalcModel.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InspectCalc.Models.Controls.SdsCalcModel" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAgAAAAAEAQAAAAAAAAA=</HashCode>
+      <FileName>Models\Controls\SdsCalcModel.cs</FileName>
+      <NewMemberFileName>Models\Controls\SDSCalcModel.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InspectCalc.Models.ModelBase" Collapsed="true">
+    <Position X="2.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAgAAAAAAAAAAgAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Models\ModelBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="InspectCalc.Models.Resources.Question" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAgAAAAAAAAAgAAAAAAAAAEAggAAAAI=</HashCode>
+      <FileName>Models\Resources\Question.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="InspectCalc.Models.Window.MainWindowModel" Collapsed="true">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAABAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Window\MainWindowModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InspectCalc.Properties.Resources" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InspectCalc.Properties.Settings" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InspectCalc.ViewModels.Controls.CalcViewModel" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAgihIAAIoAAAECEAAhAAAEAAAABAEAAAAAABCAIA=</HashCode>
+      <FileName>ViewModels\Controls\CalcViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InspectCalc.ViewModels.Resources.EnumToBooleanConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\Resources\EnumToBooleanConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="InspectCalc.ViewModels.ViewModelBase" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAACAAAAAwAAAAAAAAAAgAAAAAQAAAgAAEAAAAA=</HashCode>
+      <FileName>ViewModels\ViewModelBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="InspectCalc.ViewModels.Window.MainWindowViewModel">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACCAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\Window\MainWindowViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InspectCalc.Views.Controls.CesdCalcControl" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Controls\CesdCalcControl.xaml.cs</FileName>
+      <NewMemberFileName>Views\Controls\CESDCalcControl.xaml.cs</NewMemberFileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="InspectCalc.Views.Controls.SdsCalcControl" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Controls\SdsCalcControl.xaml.cs</FileName>
+      <NewMemberFileName>Views\Controls\SDSCalcControl.xaml.cs</NewMemberFileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Struct Name="InspectCalc.Models.Resources.Rank" Collapsed="true">
+    <Position X="7.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAQAAAAAAEAAAAAA=</HashCode>
+      <FileName>Models\Resources\Question.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="InspectCalc.Models.Resources.AnswerValType" Collapsed="true">
+    <Position X="7.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAOAAIAAAAAAAA=</HashCode>
+      <FileName>Models\Resources\Question.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Yu Gothic UI" Size="9" />
+</ClassDiagram>
